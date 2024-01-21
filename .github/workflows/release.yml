@@ -15,4 +15,4 @@ jobs:
       - name: Release Please Action
         uses: release-please/action@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
