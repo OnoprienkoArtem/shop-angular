@@ -1,0 +1,6 @@
+projectKey=shop-angular
+serverUrl=http://localhost:9000
+serverVersion=10.3.0.82913
+dashboardUrl=http://localhost:9000/dashboard?id=shop-angular
+ceTaskId=AY0sV7NFoCD22egs6z49
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY0sV7NFoCD22egs6z49
