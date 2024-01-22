@@ -19,4 +19,5 @@ run_command() {
 
 run_command "ng lint" "Linting"
 run_command "ng test --watch=false" "Unit tests"
-run_command "npm audit" "Npm Audit"
+run_command "npm run audit-ci" "Npm Audit"
+run_command "npm run sonar-scanner-local" "Static code analysis"
