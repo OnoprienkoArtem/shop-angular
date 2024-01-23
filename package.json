@@ -12,7 +12,8 @@
     "prepare": "husky install",
     "sonar-scanner-local": "sonar-scanner",
     "lint:format": "npx --no-install lint-staged && npx --no-install pretty-quick --staged",
-    "prepush": "npm run test && npm run sonar-scanner-local && npm run audit"
+    "prepush": "npm run test && npm run sonar-scanner-local && npm run audit",
+    "cicd:local": "./scripts/local_ci_cd.sh"
   },
   "private": true,
   "dependencies": {
